@@ -1,9 +1,9 @@
 <!-- Sync Impact Report
-Version change: N/A → 1.0.0
-List of modified principles: N/A (initial creation)
-Added sections: Core Principles, Technical Constraints, Development Workflow, Governance
+Version change: 1.0.0 → 1.1.0
+List of modified principles: N/A
+Added sections: N/A
 Removed sections: N/A
-Templates requiring updates: .specify/templates/plan-template.md (Constitution Check section updated) / .specify/templates/spec-template.md (no changes) / .specify/templates/tasks-template.md (no changes)
+Templates requiring updates: N/A
 Follow-up TODOs: N/A
 -->
 
@@ -27,7 +27,7 @@ Tasks must be pinnable on a canvas, allowing free-form spatial arrangement and p
 The app must remain simple, avoiding feature creep; start with core functionality and expand based on user needs. Rationale: Prevents complexity that could hinder usability and maintenance.
 
 ## Technical Constraints
-The app must support web and mobile platforms initially. Authentication via username/password is required for user access. No cross-device sync or sharing required (single-user app). Push notifications are mandatory for reminders. Offline usage should persist items locally.
+The app must support web and mobile platforms initially. Authentication via username/password is required for user access. No cross-device sync or sharing required (single-user app). Push notifications are mandatory for reminders. Offline usage should persist items locally. Built using Flutter framework for cross-platform development.
 
 ## Development Workflow
 Follow Test-Driven Development: write tests first, then implement features. Ensure all functional requirements are testable and unambiguous. Use natural language specifications for clarity. Code reviews must verify compliance with principles.
@@ -35,4 +35,4 @@ Follow Test-Driven Development: write tests first, then implement features. Ensu
 ## Governance
 Constitution supersedes all other practices. Amendments require documentation, justification, and a migration plan if needed. All PRs/reviews must verify compliance with principles. Complexity must be justified against the Simplicity principle.
 
-**Version**: 1.0.0 | **Ratified**: 2025-10-05 | **Last Amended**: 2025-10-05
+**Version**: 1.1.0 | **Ratified**: 2025-10-05 | **Last Amended**: 2025-10-05
