@@ -1,5 +1,5 @@
 <!-- Sync Impact Report
-Version change: 1.0.0 → 1.1.0
+Version change: 1.1.0 → 1.2.0
 List of modified principles: N/A
 Added sections: N/A
 Removed sections: N/A
@@ -27,7 +27,7 @@ Tasks must be pinnable on a canvas, allowing free-form spatial arrangement and p
 The app must remain simple, avoiding feature creep; start with core functionality and expand based on user needs. Rationale: Prevents complexity that could hinder usability and maintenance.
 
 ## Technical Constraints
-The app must support web and mobile platforms initially. Authentication via username/password is required for user access. No cross-device sync or sharing required (single-user app). Push notifications are mandatory for reminders. Offline usage should persist items locally. Built using Flutter framework for cross-platform development.
+The app must support web and mobile platforms initially. Authentication via username/password is required for user access. No cross-device sync or sharing required (single-user app). Push notifications are mandatory for reminders. Offline usage should persist items locally. Built using React 18 (with TypeScript) for web and mobile UI, React Native / Expo for mobile app development, Vite for build tool, Tailwind CSS for styling, React Router v6 for routing, local storage for persistence, React Context for state management, Jest + React Testing Library for testing, npm workspaces for monorepo management, and TypeScript for type safety.
 
 ## Development Workflow
 Follow Test-Driven Development: write tests first, then implement features. Ensure all functional requirements are testable and unambiguous. Use natural language specifications for clarity. Code reviews must verify compliance with principles.
@@ -35,4 +35,4 @@ Follow Test-Driven Development: write tests first, then implement features. Ensu
 ## Governance
 Constitution supersedes all other practices. Amendments require documentation, justification, and a migration plan if needed. All PRs/reviews must verify compliance with principles. Complexity must be justified against the Simplicity principle.
 
-**Version**: 1.1.0 | **Ratified**: 2025-10-05 | **Last Amended**: 2025-10-05
+**Version**: 1.2.0 | **Ratified**: 2025-10-05 | **Last Amended**: 2025-10-05
